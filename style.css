@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+
+}
+body{
+    background-color: black;
+}
+.card{
+    width: 90%;  /*  90% to parent */
+    max-width: 470px;
+    background: linear-gradient(135deg,#00Feba,#5b548a);
+    color:#fff;
+    margin: 10px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+.search{
+    width:100%;
+    display: flex;
+    align-items: center;/* cross axis*/
+    justify-content: space-between; /* main axis*/
+}
+.search input{
+    border: 0px;
+    outline: 0px;
+    background: #ebfffc;
+    color:#555;
+    padding: 10px 15px;
+    height: 60px;
+    border-bottom: 30px;
+    flex:1;
+    margin-right: 16px;
+    font-size: 18px;
+
+}
+.search button{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #ebfffc;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+
+}
+.search img{
+    width: 16px;
+
+}
+.wheather-icon{
+    width:170px;
+    margin-top: 30px;
+
+}
+.wheather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.wheather h2
+{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 20px;
+    margin-top: 50px;
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity ,.wind{
+    font-size: 28px;
+    margin-top: -6px;
+    
+}
